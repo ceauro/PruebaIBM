@@ -16,13 +16,11 @@ Repositorio que contiene la prueba técnica de IBM
 		
 ### Base de datos ###
 	El archivo de base de datos debe de estar en la ruta (en caso de ser windows)
-	```sh
 	C:/dbPedidos/
-	```
+
 	Si se tiene Linux, hay que modificar el archivo persistence.xml y modificar la propiedad javax.persistence.jdbc.url con la nueva ruta:
-	```sh
 	<property name="javax.persistence.jdbc.url" value="`aquí la nueva ruta`" />
-	```
+
 ### Servicios ###
 	Hay tres servicios funcionales:
 	
